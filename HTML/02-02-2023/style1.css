@@ -1,0 +1,21 @@
+.form{
+    color: maroon;
+    background-color: lightsalmon;
+}
+
+p{
+    font-weight: 900;margin-top: 30px;
+    padding: 5px;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+.login , signup , password{
+    background-color: lightgreen;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
