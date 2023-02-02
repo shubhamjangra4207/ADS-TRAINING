@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxmodel</title>
+</head>
+<style>
+    div.first {
+        background-color: lightgrey;
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: auto;
+    }
+
+    div {
+        border: 1px solid gray;
+        padding: 8px;
+    }
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #4CAF50;
+
+    }
+
+    p.second {
+        text-indent: 50px;
+        text-align: justify;
+        letter-spacing: 3px;
+    }
+
+
+    p.dot {
+        outline-style: dotted;
+        outline-color: aqua;
+    }
+
+    p.dott {
+        outline-style: dashed;
+        outline-color: blue;
+    }
+
+    p.dotts {
+        outline-style: solid;
+    }
+
+    p.dpt {
+        outline-style: double;
+    }
+
+    p.dpts {
+        outline-style: ridge;
+    }
+</style>
+
+<body>
+    <h2>Box Model</h2>
+    <div class="first">This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green
+        border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.</div>
+
+    <p class="dot">Outline of box</p>
+    <p class="dott">Outline of box</p>
+    <p class="dotts">Outline of box</p>
+    <p class="dpt">Outline of box</p>
+    <p class="dpts">Outline of box</p>
+    <HR>
+    <HR>
+    <h1>text formatting</h1>
+    <div>
+        <p class="second">This text is styled with some of the text formatting properties. The heading uses the
+            text-align, text-transform, and color properties.
+            The paragraph is indented, aligned, and the space between characters is specified.</p>
+    </div>
+</body>
+
+</html>
